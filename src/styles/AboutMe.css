@@ -1,0 +1,24 @@
+section {
+    text-align: center;
+  }
+  
+  section img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  section p {
+    margin: 1rem 0;
+  }
+  
+.about-me {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .about-me p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+
+  

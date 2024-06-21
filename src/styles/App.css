@@ -1,0 +1,181 @@
+/* Reset some basic styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the entire app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content area */
+.content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+footer a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styling for the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Additional styling for the AboutMe section */
+.about-me {
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-me img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.about-me p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+/* Additional styling for the Portfolio section */
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-item {
+  width: 30%;
+  margin: 1rem;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-item h3 {
+  margin: 0.5rem 0;
+}
+
+.portfolio-item a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.portfolio-item a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styling for the Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin: 1rem 0;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+span {
+  color: red;
+  font-size: 0.8rem;
+}
+
+/* Additional styling for the Resume section */
+.resume {
+  text-align: center;
+  padding: 2rem;
+}
+
+.resume a {
+  display: block;
+  margin: 1rem 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
